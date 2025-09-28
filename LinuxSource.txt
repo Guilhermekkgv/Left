@@ -2405,7 +2405,7 @@ function Linux.Create(config)
         Linux.Instance("UIStroke", {
             Parent = TabBtn,
             Color = Color3.fromRGB(30, 30, 30),
-            Thickness = 0
+            Thickness = 1
         })
         
         local TabAccentBar = Linux.Instance("Frame", {
