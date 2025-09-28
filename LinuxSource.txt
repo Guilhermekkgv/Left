@@ -2616,7 +2616,7 @@ function Linux.Create(config)
             TabText.TextColor3 = Color3.fromRGB(210, 210, 210)
             TabBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 32)
             TabBtn.BackgroundTransparency = 0.7
-            TabBtn.BorderSizePixel = 0
+            TabBtn.BorderSizePixel = 1
             TabBtn.BorderColor3 = Color3.fromRGB(39, 39, 42)
             
             local tabStroke = TabBtn:FindFirstChild("UIStroke")
